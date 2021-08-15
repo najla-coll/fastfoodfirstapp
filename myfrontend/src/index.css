@@ -19,7 +19,7 @@ code {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-between;
-  height: 900px;
+  /* height: 900px; */
  
   
 }
@@ -42,7 +42,7 @@ box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 .App
 {
   margin-top: 50px;
- 
+  size:auto;
 }
 
 .loading
