@@ -55,13 +55,7 @@ if(process.env.NODE_ENV === 'production') {
 app.use((err,req,res,next)=>{
     res.status(500).send({message:err.message})
 })
-////////////////////////////////////////////////////:
-// if(process.env.NODE_ENV === 'production') {
-//     app.use(express.static('myfrontend/build'));
-//     app.get('*', (req, res) =>
-//       res.sendFile(path.resolve(__dirname, 'myfrontend','build','index.html'))
-//     );
-// }
+
 
 /////////////////////////////////////////////////////////////////////// 
 app.listen(port,()=>{
